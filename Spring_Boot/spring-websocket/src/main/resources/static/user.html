@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HN Spring WebSocket</title>
+    <script src="/js/sockjs-0.3.4.min.js"></script>
+    <script src="/js/stomp.js"></script>
+    <script  src="/js/User_Add_Update.js"></script>
+</head>
+<body onload="connect()">
+<h1>Add User</h1>
+<form method="post" action="javascript:save();">
+    <P>Username:<input type="text" id="username" name="username"></P>
+    <p>Password:<input type="text" id="password" name="password"></p>
+    <p>Emaillll:<input type="email" id="email" name="email"></p>
+    <p>Ageeeeee:<input type="number" id="age" name="age"></p>
+    <p>Group(ID):<select id="groupId" name="groupId"></select></p>
+    <p class="submit">
+        <input type="submit" name="save" value="Save">
+    </p>
+    <p id="response"></p>
+
+</form>
+</body>
+</html>

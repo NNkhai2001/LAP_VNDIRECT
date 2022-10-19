@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HN Spring WebSocket</title>
+    <script src="/js/sockjs-0.3.4.min.js"></script>
+    <script src="/js/stomp.js"></script>
+    <script  src="/js/Group_add_Update.js"></script>
+</head>
+<body onload="connect()">
+<h1>List Group</h1>
+<form method="post" action="javascript:save();">
+    <P>Group Name:<input type="text" id="groupname" name="groupname"></P>
+    <input type="hidden" id="groupId" name="groupId">
+    <p class="submit">
+        <input type="submit" name="save" value="Save">
+    </p>
+    <p id="response"></p>
+
+</form>
+</body>
+</html>

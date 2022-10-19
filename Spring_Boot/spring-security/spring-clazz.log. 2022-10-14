@@ -1,0 +1,57 @@
+[2022-10-14 13:48:18] INFO [main] ContextStartEventHandler.createTable(38) | Table HN_USER already exists!
+[2022-10-14 13:50:23] INFO [main] ContextStartEventHandler.createTable(38) | Table HN_USER already exists!
+[2022-10-14 13:51:52] INFO [main] ContextStartEventHandler.createTable(38) | Table HN_USER already exists!
+[2022-10-14 13:53:02] INFO [main] ContextStartEventHandler.createTable(38) | Table HN_USER already exists!
+[2022-10-14 13:54:04] INFO [main] ContextStartEventHandler.createTable(38) | Table HN_USER already exists!
+[2022-10-14 13:56:49] INFO [main] ContextStartEventHandler.createTable(38) | Table HN_USER already exists!
+[2022-10-14 14:00:31] INFO [main] ContextStartEventHandler.createTable(38) | Table HN_USER already exists!
+[2022-10-14 14:03:49] INFO [main] ContextStartEventHandler.createTable(38) | Table HN_USER already exists!
+[2022-10-14 14:09:19] INFO [main] ContextStartEventHandler.createTable(38) | Table HN_USER already exists!
+[2022-10-14 14:09:48] INFO [main] ContextStartEventHandler.createTable(38) | Table HN_USER already exists!
+[2022-10-14 14:11:04] INFO [main] ContextStartEventHandler.createTable(38) | Table HN_USER already exists!
+[2022-10-14 15:28:47] INFO [main] ContextStartEventHandler.createTable(38) | Table HN_USER already exists!
+[2022-10-14 15:30:02] INFO [main] ContextStartEventHandler.createTable(38) | Table HN_USER already exists!
+[2022-10-14 15:37:20] INFO [main] ContextStartEventHandler.createTable(38) | Table HN_USER already exists!
+[2022-10-14 15:38:29] INFO [main] ContextStartEventHandler.createTable(38) | Table HN_USER already exists!
+[2022-10-14 15:39:52] INFO [main] ContextStartEventHandler.createTable(38) | Table HN_USER already exists!
+[2022-10-14 15:40:12] INFO [main] ContextStartEventHandler.createTable(38) | Table HN_USER already exists!
+[2022-10-14 15:42:55] ERROR [main] ContextStartEventHandler.onApplicationEvent(30) | java.sql.SQLException: Constraint 'GROUP_FK' is invalid: referenced table HN_GROUP does not exist.
+java.sql.SQLException: Constraint 'GROUP_FK' is invalid: referenced table HN_GROUP does not exist.
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory.getSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.generateCsSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.TransactionResourceImpl.wrapInSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.TransactionResourceImpl.handleException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.handleException(Unknown Source)
+	at org.apache.derby.impl.jdbc.ConnectionChild.handleException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedStatement.execute(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedStatement.executeLargeUpdate(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedStatement.executeUpdate(Unknown Source)
+	at edu.hanoi.jazz.ContextStartEventHandler.createTable(ContextStartEventHandler.java:41)
+	at edu.hanoi.jazz.ContextStartEventHandler.onApplicationEvent(ContextStartEventHandler.java:23)
+	at edu.hanoi.jazz.ContextStartEventHandler.onApplicationEvent(ContextStartEventHandler.java:14)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:176)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:169)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:143)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:421)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:378)
+	at org.springframework.context.support.AbstractApplicationContext.start(AbstractApplicationContext.java:1432)
+	at edu.hanoi.jazz.SpringSecurityApplication.main(SpringSecurityApplication.java:15)
+Caused by: ERROR X0Y46: Constraint 'GROUP_FK' is invalid: referenced table HN_GROUP does not exist.
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.impl.sql.compile.FKConstraintDefinitionNode.bind(Unknown Source)
+	at org.apache.derby.impl.sql.compile.TableElementList.validate(Unknown Source)
+	at org.apache.derby.impl.sql.compile.CreateTableNode.bindStatement(Unknown Source)
+	at org.apache.derby.impl.sql.GenericStatement.prepMinion(Unknown Source)
+	at org.apache.derby.impl.sql.GenericStatement.prepare(Unknown Source)
+	at org.apache.derby.impl.sql.conn.GenericLanguageConnectionContext.prepareInternalStatement(Unknown Source)
+	... 13 more
+[2022-10-14 15:44:32] INFO [main] ContextStartEventHandler.createTable(38) | Table HN_USER already exists!
+[2022-10-14 15:49:26] INFO [main] ContextStartEventHandler.createTable(38) | Table HN_USER already exists!
+[2022-10-14 15:52:31] INFO [main] ContextStartEventHandler.createTable(38) | Table HN_USER already exists!
+[2022-10-14 15:54:02] INFO [main] ContextStartEventHandler.createTable(38) | Table HN_USER already exists!
+[2022-10-14 15:54:54] INFO [main] ContextStartEventHandler.createTable(38) | Table HN_USER already exists!
+[2022-10-14 15:55:34] INFO [main] ContextStartEventHandler.createTable(38) | Table HN_USER already exists!
+[2022-10-14 16:13:12] INFO [main] ContextStartEventHandler.createTable(38) | Table HN_USER already exists!
+[2022-10-14 16:14:40] INFO [main] ContextStartEventHandler.createTable(38) | Table HN_USER already exists!
+[2022-10-14 16:41:35] INFO [main] ContextStartEventHandler.createTable(38) | Table HN_USER already exists!

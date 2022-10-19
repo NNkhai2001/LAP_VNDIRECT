@@ -1,0 +1,16 @@
+[2022-10-07 15:07:27] INFO [main] ContextStartEventHandler.onApplicationEvent(16) | context start application: org.springframework.jdbc.datasource.DriverManagerDataSource@f723cdb
+[2022-10-07 15:26:21] INFO [main] ContextStartEventHandler.createTable(33) | Table HN_GROUP already exists!
+[2022-10-07 15:33:38] INFO [main] ContextStartEventHandler.createTable(33) | Table HN_GROUP already exists!
+[2022-10-07 15:35:15] INFO [main] ContextStartEventHandler.createTable(33) | Table HN_GROUP already exists!
+[2022-10-07 15:51:09] INFO [main] ContextStartEventHandler.createTable(33) | Table HN_GROUP already exists!
+[2022-10-07 15:52:05] INFO [main] ContextStartEventHandler.createTable(33) | Table HN_GROUP already exists!
+[2022-10-07 15:52:48] INFO [main] ContextStartEventHandler.createTable(33) | Table HN_GROUP already exists!
+[2022-10-07 15:57:15] INFO [main] ContextStartEventHandler.createTable(33) | Table HN_GROUP already exists!
+[2022-10-07 15:59:02] INFO [main] ContextStartEventHandler.createTable(33) | Table HN_GROUP already exists!
+[2022-10-07 16:09:43] INFO [main] ContextStartEventHandler.createTable(33) | Table HN_GROUP already exists!
+[2022-10-07 16:18:06] INFO [main] ContextStartEventHandler.createTable(33) | Table HN_GROUP already exists!
+[2022-10-07 16:20:41] INFO [main] ContextStartEventHandler.createTable(33) | Table HN_GROUP already exists!
+[2022-10-07 16:22:26] INFO [main] ContextStartEventHandler.createTable(33) | Table HN_GROUP already exists!
+[2022-10-07 16:26:14] INFO [main] ContextStartEventHandler.createTable(33) | Table HN_GROUP already exists!
+[2022-10-07 16:33:58] INFO [main] ContextStartEventHandler.createTable(33) | Table HN_GROUP already exists!
+[2022-10-07 16:35:44] INFO [main] ContextStartEventHandler.createTable(33) | Table HN_GROUP already exists!
